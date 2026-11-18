@@ -1,5 +1,13 @@
 # Detecção de possível exposição de dados
 
+Correlaciona leituras sensíveis e conexões externas por processo usando telemetria fictícia.
+
+**Arquivos principais**
+
+- [detectar.py](<detectar.py>)
+- [eventos.csv](<eventos.csv>)
+- [esperado.txt](<esperado.txt>)
+
 Alternativa defensiva ao laboratório de malware. O programa lê exclusivamente um CSV de eventos fictícios. Ele não captura conteúdo, não acessa arquivos monitorados e não abre conexões. Os destinos do exemplo pertencem a uma faixa reservada para documentação.
 
 O detector correlaciona uma leitura classificada como sensível seguida de uma conexão externa pelo mesmo processo, no mesmo host, dentro de cinco minutos. Um evento de início limpa a associação anterior para evitar correlação com um processo encerrado que usava o mesmo identificador. O CSV usa timestamps UTC normalizados em ISO 8601.
