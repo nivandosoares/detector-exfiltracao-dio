@@ -1,0 +1,1 @@
+2026-11-18T14:03:00+00:00 | estacao-a / 100 | 192.0.2.11 | revisar possível exposição

@@ -1,0 +1,7 @@
+horario,host,processo_id,tipo,destino
+2026-11-18T14:00:00+00:00,estacao-a,100,inicio_processo,
+2026-11-18T14:01:00+00:00,estacao-a,100,leitura_sensivel,
+2026-11-18T14:02:00+00:00,estacao-a,103,conexao_externa,192.0.2.10
+2026-11-18T14:03:00+00:00,estacao-a,100,conexao_externa,192.0.2.11
+2026-11-18T14:04:00+00:00,estacao-b,200,leitura_sensivel,
+2026-11-18T14:10:00+00:00,estacao-b,200,conexao_externa,192.0.2.12
